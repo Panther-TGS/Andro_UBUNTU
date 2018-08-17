@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_activity_one"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Name" />
+
+        <item
+            android:id="@+id/nav_activity_three"
+            android:icon="@drawable/sign"
+            android:title="Sign Out" />
+
+    </group>
+
+    <item android:title="About Developers">
+    <menu>
+        <item
+            android:id="@+id/ab_dev1"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Developers" />
+
+
+
+    </menu>
+    </item>
+
+    <item android:title="Your Favourite Firms"
+          android:icon="@drawable/ic_favorite_black_24dp">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_account_balance_black_24dp"
+                android:title="Amazon Services" />
+
+        </menu>
+    </item>
+
+</menu>
